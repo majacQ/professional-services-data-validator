@@ -1,4 +1,4 @@
-FROM python:3.7.0-slim
+FROM python:3.7-slim
 ARG APP_VERSION
 COPY google_pso_data_validator-$APP_VERSION-py3-none-any.whl .
 RUN apt-get update \
